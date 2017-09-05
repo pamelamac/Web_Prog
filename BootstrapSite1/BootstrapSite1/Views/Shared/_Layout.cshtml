@@ -60,11 +60,32 @@
                     <li><a href="">Another nav item</a></li>
                     <li><a href="">More navigation</a></li>
                 </ul>
-                <ul class="nav nav-sidebar">
-                    <li><a href="">Nav item again</a></li>
-                    <li><a href="">One more nav</a></li>
-                    <li><a href="">Another nav item</a></li>
+                <li data-toggle="collapse" data-target="#products" class="collapsed active">
+                    <a href="#"><i class="fa fa-gift fa-lg"></i> UI Elements <span class="arrow"></span></a>
+                </li>
+                <ul class="sub-menu collapse" id="products">
+                    <li class="active"><a href="#">CSS3 Animation</a></li>
+                    <li><a href="#">General</a></li>
+                    <li><a href="#">Buttons</a></li>
+                    <li><a href="#">Tabs & Accordions</a></li>
+                    <li><a href="#">Typography</a></li>
+                    <li><a href="#">FontAwesome</a></li>
+                    <li><a href="#">Slider</a></li>
+                    <li><a href="#">Panels</a></li>
+                    <li><a href="#">Widgets</a></li>
+                    <li><a href="#">Bootstrap Model</a></li>
                 </ul>
+                <li>
+                    <a class="nav-link-collapse collapsed" data-toggle="collapse" href="#collapseMulti2">Third Level</a>
+                    <ul class="sidenav-third-level collapse" id="collapseMulti2">
+                        <li>
+                            <a href="#">Third Level Item</a>
+                        </li>
+                        <li>
+                            <a href="#">Third Level Item</a>
+                        </li>
+                    </ul>
+                </li>
             </div>
             @RenderBody()
         </div>
