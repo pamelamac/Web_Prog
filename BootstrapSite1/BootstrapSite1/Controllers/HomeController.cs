@@ -13,5 +13,15 @@ namespace BootstrapSite1.Controllers
             ViewBag.Title="My Sweeties";
 return View();
         }
+
+        public ActionResult AddEmp()
+        {
+            return View();
+        }
+
+        public ActionResult Cashier()
+        {
+            return View();
+        }
     }
 }
